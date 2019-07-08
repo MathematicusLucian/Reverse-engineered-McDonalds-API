@@ -1,6 +1,7 @@
 # mcdonalds-api
 There seems to be a API at McDonalds.com and it has no documentation, but I'm feeling curious ;) 
 
+Reverse engineered:  
 - Made basic AJAX call to getItemDetails.htm. error: code: 1001 description: 'Country code cannot be blank.'  
 - Code isn't GB. ?country=UK was successful. Now: error: code: 1201 description: 'Item id cannot be blank.'
 - error: {code: 1202, description: 'Item id- 1 does not exist for country code- UK.'}
