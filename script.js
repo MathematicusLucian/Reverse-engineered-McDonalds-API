@@ -10,7 +10,15 @@ $( document ).ready(function() {
 
 	  console.log( "Load was performed." );
 
-	  $( ".result" ).html(data.item.imported_item_name);
+	  $( ".result" ).html("").append(
+	  	"<h4>Item: " +
+	  	data.item.imported_item_name +
+	  	"</h4>" +
+	  	"<p>" +
+	  	data.item.description +
+	  	"</p>"
+	  );
+
 	  console.log( data );
 	  //["attach_item_hero_image"]["description"]["image_name"]
 	
