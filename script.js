@@ -11,6 +11,9 @@ $( document ).ready(function() {
 	  console.log( "Load was performed." );
 
 	  $( ".result" ).html("").append(
+	  	"<img src ='https://www.mcdonalds.com/content/dam/uk/nutrition/product/pdp-desk/" +
+	  	data.item.attach_item_timage.image_name +
+	  	"'>" +
 	  	"<h4>Item: " +
 	  	data.item.imported_item_name +
 	  	"</h4>" +
