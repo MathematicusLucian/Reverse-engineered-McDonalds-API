@@ -28,8 +28,7 @@ $( document ).ready(function() {
 	  	"</p>"
 	  );
 
-	  console.log( data );
-	  //["attach_item_hero_image"]["description"]["image_name"]
+	  console.log( data ); 
 	
 	})
     .fail(function(xhr, textStatus, errorThrown) {
