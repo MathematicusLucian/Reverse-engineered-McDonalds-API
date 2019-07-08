@@ -1,2 +1,5 @@
 # mcdonalds-api
-I can't see documentation, but there seems to be a API at McDonalds.com and I'm feeling curious ;) 
+There seems to be a API at McDonalds.com and it has no documentation, but I'm feeling curious ;) 
+
+### Output by my code's request to MackyD's undocumented API:  
+[preview](./img/mcd_data!)
