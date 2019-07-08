@@ -1,4 +1,4 @@
-# mcdonalds-api
+# Reverse-engineered: mcdonalds-api
 There seems to be a API at McDonalds.com and it has no documentation, but I'm feeling curious ;) 
 
 Reverse engineered:  
