@@ -5,7 +5,7 @@ $( document ).ready(function() {
 
 	$( ".result" ).html( "Let's get some data!" );
 
-	$.get( "https://www.mcdonalds.com/wws/json/getItemDetails.htm?country=UK&item=1000", function( data ) {
+	$.get( "https://www.mcdonalds.com/wws/json/getItemDetails.htm?country=UK&item=200145", function( data ) {
 
 	  console.log( "Load was performed." );
 
