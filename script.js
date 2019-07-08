@@ -19,6 +19,12 @@ $( document ).ready(function() {
 	  	"</h4>" +
 	  	"<p>" +
 	  	data.item.description +
+	  	"</p>" +
+	  	"<p>" +
+	  	data.item.footer.footer_name36 +
+	  	"</p>" +
+	  	"<p><strong>Ingredients:</strong> " +
+	  	data.item.item_ingredient_statement +
 	  	"</p>"
 	  );
 
